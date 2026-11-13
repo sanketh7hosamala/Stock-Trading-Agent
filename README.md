@@ -19,7 +19,8 @@ A Model Context Protocol (MCP) server exposing tools for stock research, rule-ba
 uv sync
 cp .env.example .env
 # Add your Alpaca PAPER API credentials and optional FMP API key
-uv run server.py
+uv run trading-mcp.py # to run MCP
+python interactive-agent.py # to run interactive claude Agent
 ```
 
 ## Safety
