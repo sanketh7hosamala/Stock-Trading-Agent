@@ -1,0 +1,17 @@
+[project]
+name = "trading-mcp"
+version = "0.1.0"
+description = "Alpaca paper-trading MCP server"
+requires-python = ">=3.14"
+dependencies = [
+  "mcp[cli]>=1.0.0",
+  "alpaca-py>=0.31.0",
+  "python-dotenv>=1.0.0",
+  "pydantic>=2.0.0",
+  "pandas>=2.0.0",
+  "numpy>=1.26.0",
+  "httpx>=0.27.0",
+]
+
+[tool.uv]
+package = false
